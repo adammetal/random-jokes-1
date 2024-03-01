@@ -1,0 +1,70 @@
+:root {
+  --primary-color: hsl(0, 0%, 52%);
+  --secondary-color: hsl(0, 0%, 70%);
+
+  --base-padding: 1rem;
+  --base-shadow: 0 2px 4px 1px #0000009c;
+  --base-width: 70%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: var(--base-padding);
+  box-shadow: var(--base-shadow);
+}
+
+main {
+  background-color: var(--primary-color);
+  width: var(--base-width);
+  margin: var(--base-padding) auto;
+  padding: var(--base-padding);
+  box-shadow: var(--base-shadow);
+}
+
+main #joke-div {
+  font-size: 1.5rem;
+}
+
+main #joke-rate-form {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--base-padding);
+}
+
+main #joke-rate-form input {
+  padding: var(--base-padding);
+  font-size: 1.5rem;
+}
+
+main #joke-rate-form button {
+  padding: var(--base-padding);
+  font-size: 1.5rem;
+}
+
+#best {
+  width: var(--base-width);
+  margin: var(--base-padding) auto;
+  background-color: var(--secondary-color);
+  padding: var(--base-padding);
+}
+
+#best h2 {
+  margin-bottom: var(--base-padding);
+}
